@@ -63,11 +63,20 @@ developing your own process.
 - Add a new toy when the toy form is submitted
 
   - How I debugged:
+  Error on the rails server "NameError (uninitialized constant ToysController::Toys" 
+  Misspelt word Toy for the class instance
+
+
 
 - Update the number of likes for a toy
 
   - How I debugged:
+  Required json to be returned in the response.
+  rendered resposet to json
 
 - Donate a toy to Goodwill (and delete it from our database)
 
   - How I debugged:
+  Error reads ActionController::RoutingError (No route matches [DELETE]
+ No resourse for ':destroy" in the routes file
+ Added required route
